@@ -29,7 +29,8 @@ body {
 }
 
 .typewriter h1 {
-  background-color: #EAEAEA;
+  /*background-color: #EAEAEA;*/
+  color:white;
   overflow: hidden;
   border-right: .15em  solid #595959;
   white-space: nowrap;
