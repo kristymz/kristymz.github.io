@@ -1,28 +1,33 @@
 
 body {
+  padding-top:2px;
   background: rgb(12, 12, 12);
-  padding-top: 5em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.big-title {
   display: flex;
   justify-content: center;
-}
-
-/*h1 title km by km*/
-.typewriter h1 {
   color: rgb(255, 255, 255);
-  font-family: 'Press Start 2P', cursive;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(70, 70, 70); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
 }
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+/*
+.favorites {
+  display: flex;
+  justify-content: center;
+  color: #322e2b;
+  background-color: white;
+  border-radius:20px;
+  margin-left:700px;
+  margin-right:700px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
-
+*/
+.navbar { 
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding:20px;
+}
