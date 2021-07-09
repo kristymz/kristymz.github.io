@@ -1,0 +1,17 @@
+body {
+  padding-top:2px;
+  background: rgb(12, 12, 12);
+  font-family: 'Press Start 2P', cursive;
+}
+
+.big-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.navbar { 
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding:20px;
+}
