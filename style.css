@@ -1,7 +1,7 @@
 
 body {
   padding-top:2px;
-  background: rgb(12, 12, 12);
+  background: rgb(0, 0, 0);
   font-family: 'Press Start 2P', cursive;
   color: rgb(255, 255, 255);
 }
@@ -36,11 +36,44 @@ body {
 .main-text {
   display: flex;
   justify-content: center;
-  margin:20px;
+  text-align: center;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
   line-height: 50px;
 }
+.social-media {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  line-height: 50px;
+}
+.fyi {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  line-height: 50px;
+}
+.heartgif {
+  margin-top:10px;
+  width:250px;
+  height:250px;
+}
 
-img {
-  width:500px;
-  height:500px;
+.navbar:hover{
+  background: rgb(67, 68, 67);
+}
+
+.navbar:active {
+  background: rgb(67, 68, 67);
+}
+
+.navbar:selected {
+  background: rgb(67, 68, 67);
 }

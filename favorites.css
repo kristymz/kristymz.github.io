@@ -15,3 +15,71 @@ body {
   text-decoration: none;
   padding:20px;
 }
+
+.navbar:hover{
+  background: rgb(67, 68, 67);
+}
+
+.navbar:active {
+  background: rgb(67, 68, 67);
+}
+
+.navbar:selected {
+  background: rgb(67, 68, 67);
+}
+
+.planether {
+  margin-top:10px;
+  margin:100px;
+  width:400px;
+  height:400px;
+  object-fit: cover;
+  border: 10px solid lightgray;
+}
+
+.transformers {
+  display: block;
+  margin:100px;
+  margin-top:10px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 10px solid lightgray;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  margin:100px;
+  margin-top:10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 42.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(63, 63, 63);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
