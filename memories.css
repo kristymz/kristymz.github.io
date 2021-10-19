@@ -1,6 +1,6 @@
 body {
   padding-top:2px;
-  background: rgb(12, 12, 12);
+  background: rgb(0, 0, 0);
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -26,4 +26,7 @@ body {
 
 .navbar:selected {
   background: rgb(67, 68, 67);
+}
+.ballz {
+  color: white;
 }
