@@ -16,6 +16,15 @@ body {
   padding:20px;
 }
 
+.ballz {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  line-height: 50px;
+}
 .navbar:hover{
   background: rgb(67, 68, 67);
 }

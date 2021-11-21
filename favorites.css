@@ -29,25 +29,6 @@ body {
   background: rgb(67, 68, 67);
 }
 
-.planether {
-  margin-top:10px;
-  margin:100px;
-  width:400px;
-  height:400px;
-  object-fit: cover;
-  border: 10px solid lightgray;
-}
-
-.transformers {
-  display: block;
-  margin:100px;
-  margin-top:10px;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border: 10px solid lightgray;
-}
-
 .container {
   position: relative;
   width: 50%;
@@ -105,7 +86,7 @@ body {
 div, iframe {
     display:block;
     width: 100px;
-    height: 50px;
+    height: 100px;
     margin: 0 auto;
     background-color: #777;
 }
