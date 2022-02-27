@@ -1,10 +1,38 @@
-body {
+/* body {
   padding-top:2px;
   background: rgb(0, 0, 0);
   color: white;
   font-family: 'Press Start 2P', cursive;
 }
+*/
 
+body {
+	background: linear-gradient(-45deg, #632727, #4c4658, #2c5c6d, #316d5f);
+	background-size: 1000% 1000%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  padding-top: 2px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.big-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
 .big-title {
   display: flex;
   justify-content: center;
