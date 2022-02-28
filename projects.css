@@ -67,6 +67,17 @@ body {
   line-height: 50px;
 }
 
+.paragraph-words {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  line-height: 35px;
+}
+
 .toastgif {
   margin-top:10px;
   width:250px;
