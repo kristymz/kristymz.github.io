@@ -102,6 +102,7 @@ body {
 }
 
 .navbar:hover{
+  border-color: white;
   background: rgb(67, 68, 67);
 }
 

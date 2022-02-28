@@ -73,3 +73,19 @@ body {
   width:300px;
   height:250px;
 }
+
+.paragraph-words {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  margin:100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  line-height: 35px;
+}
+
+.picofme {
+  width:300px;
+  height:auto;
+}
